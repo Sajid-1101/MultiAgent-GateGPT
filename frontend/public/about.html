@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>
+        About GateMind AI
+    </title>
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Inter,
+                Arial;
+
+            background:
+                radial-gradient(circle at top,
+                    #28126555,
+                    transparent 35%),
+                #020617;
+
+            color: white;
+
+            padding: 50px 10%;
+
+        }
+
+
+        .container {
+
+            max-width: 1000px;
+
+            margin: auto;
+
+        }
+
+
+        h1 {
+
+            font-size: 55px;
+
+        }
+
+
+        span {
+
+            color: #60a5fa;
+
+            text-shadow:
+                0 0 25px #5325eb;
+
+        }
+
+
+        .card {
+
+            background:
+                rgba(15, 23, 42, .8);
+
+            border:
+                1px solid #334155;
+
+            border-radius: 25px;
+
+            padding: 30px;
+
+            margin: 25px 0;
+
+            box-shadow:
+                0 0 30px #2563eb33;
+
+        }
+
+
+        p,
+        li {
+
+            color: #cbd5e1;
+
+            line-height: 1.8;
+
+            font-size: 17px;
+
+        }
+
+
+        .flow {
+
+            color: #93c5fd;
+
+            font-weight: bold;
+
+        }
+
+
+        a {
+
+            color: #60a5fa;
+
+            text-decoration: none;
+
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+
+
+    <div class="container">
+
+
+        <h1>
+            About <span>GateGPT AI</span>
+        </h1>
+
+
+        <p>
+            Your intelligent AI powered assistant for
+            GATE Computer Science preparation.
+        </p>
+
+
+
+
+        <div class="card">
+
+            <h2>
+                🤖 What is GateGPT AI?
+            </h2>
+
+            <p>
+
+                GateGPT AI is an intelligent Agentic RAG chatbot built specifically for GATE Computer Science
+                preparation. It combines specialized AI agents, metadata-aware retrieval, and a curated knowledge base
+                of books, notes, solved papers, and previous year questions to deliver accurate, context-aware, and
+                reliable responses.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <h2>
+                ⚙️ How It Works
+            </h2>
+
+            <p class="flow">
+
+                User Query →
+                Supervisor Agent →
+                Concept Agent / PYQ Agent →
+                Metadata Filtered FAISS Retrieval →
+                Gemini AI →
+                Verification Agent →
+                Final Response
+
+            </p>
+
+            <p>
+
+                GateGPT AI uses an Agentic Retrieval-Augmented Generation (Agentic RAG) architecture.
+                The Supervisor Agent first understands the user's intent and routes the query to the appropriate
+                specialized agent. The Concept Agent retrieves information from books, notes, and solved papers, while
+                the PYQ Agent accesses previous year questions using metadata-filtered FAISS retrieval. Finally, the
+                Verification Agent validates the generated response against the retrieved knowledge before presenting
+                the final answer, reducing hallucinations and improving reliability.
+
+            </p>
+
+        </div>
+
+
+
+
+        <div class="card">
+
+
+            <h2>
+                🛠 Tech Stack
+            </h2>
+
+
+            <ul>
+
+                <li>Frontend : React + CSS</li>
+
+                <li>Backend : Flask REST API</li>
+
+                <li>Language : Python</li>
+
+                <li>Architecture : Multi-Agent RAG</li>
+                <li>LLM : Gemini 2.5 Flash</li>
+
+                <li>Embeddings : HuggingFace Transformers</li>
+
+                <li>Vector Database : FAISS</li>
+
+            </ul>
+
+
+        </div>
+
+
+
+
+
+        <div class="card">
+
+
+            <h2>
+                📚 Knowledge Base
+            </h2>
+
+
+            <ul>
+
+                <li>2800+ pages of GATE CSE material</li>
+
+                <li>6500+ vector chunks</li>
+                <li>Books & Reference Material</li>
+
+                <li>Subject Notes</li>
+
+                <li>Solved Papers</li>
+
+                <li>Subject-wise PYQs</li>
+
+                <li>Year-wise PYQs</li>
+
+            </ul>
+
+
+        </div>
+
+
+
+
+        <div class="card">
+
+
+            <h2>
+                👨‍💻 Developer
+            </h2>
+
+
+            <p>
+
+                Designed and developed by Sajid Saleem
+                using modern AI and full stack technologies.
+
+            </p>
+
+
+        </div>
+
+
+
+        <a href="/">
+            ← Back to Home
+        </a>
+
+
+    </div>
+
+
+</body>
+
+</html>
