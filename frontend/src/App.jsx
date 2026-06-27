@@ -88,7 +88,7 @@ function App() {
             </a>
 
             <a
-              href="https://github.com/tomx-1101/gate_meterial"
+              href="https://github.com/Sajid-1101/MultiAgent-GateGPT"
               target="_blank"
               rel="noopener noreferrer"
             >
